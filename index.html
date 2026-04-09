@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubber FUCKS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="nav-container">
+        <h1><a href="index.html" class="logo">Rubber Duck Idk</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#prank-options">Prank Options</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Custom</a></li>
+                <li><a href="#socials">Follow Us</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="slider">
+        <div class="slide active" style="background:#ffcc00;"></div>
+        <div class="slide" style="background:#ffee66;"></div>
+        <div class="slide" style="background:#ffee99;"></div>
+    </div>
+    <div class="overlay">
+        <h2>We'll rubber fuck their yard up with ducks</h2>
+        <p>dude skibidi toilet idk</p>
+        <a href="#prank-options" class="btn">See Options</a>
+    </div>
+</section>
+
+<main>
+    <section id="info">
+        <div class="text-background">
+            <h2>About Rubber Fucks</h2>
+            <p>idk cause we dont know lowk</p>
+        </div>
+    </section>
+
+    <section id="prank-options">
+        <h2>Prank Options</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="card-placeholder"></div>
+                <h3>Option 1</h3>
+                <p>Option 1 info</p>
+                <a href="#" class="btn-small">Details</a>
+            </div>
+            <div class="card">
+                <div class="card-placeholder"></div>
+                <h3>Option 2</h3>
+                <p>Option 2 info</p>
+                <a href="#" class="btn-small">Details</a>
+            </div>
+            <div class="card">
+                <div class="card-placeholder"></div>
+                <h3>Custom</h3>
+                <p>Idk its custom ig</p>
+                <a href="#" class="btn-small">Customize</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <div class="text-background">
+            <h2>How It Works</h2>
+            <ol class="steps">
+                <li>Choose a prank option</li>
+                <li>Pick the date and time you'd like :3</li>
+                <li>uhm guys . . . are the duckies right behind them?!?!??!</li>
+                <li>Skibidi toilet rizz.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="sign-up">
+        <h2>Get Updates & Specials</h2>
+        <form>
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit" class="btn-small">Sign Up</button>
+        </form>
+    </section>
+
+    <section id="socials">
+        <h2>Follow Us</h2>
+        <div class="social-links">
+            <a href="https://instagram.com" class="social-card" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com" class="social-card" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://youtube.com" class="social-card" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Phone">
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit" class="btn-small">Send</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Rubber Fucks</p>
+</footer>
+
+<script>
+let index = 0;
+const slides = document.querySelectorAll('.slide');
+function showSlide() {
+    slides.forEach(s => s.classList.remove('active'));
+    index = (index + 1) % slides.length;
+    slides[index].classList.add('active');
+}
+setInterval(showSlide, 3500);
+</script>
+</body>
+</html>
