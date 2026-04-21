@@ -8,17 +8,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+
+<div id="top"></div>
+
 <header>
     <div class="nav-container">
         <h1><a href="index.html" class="logo">Rubber Duck Idk</a></h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#prank-options">Prank Options</a></li>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#prank-options">Prank Options</a></li>
                 <li><a href="#">Shop</a></li>
                 <li><a href="#">Custom</a></li>
                 <li><a href="#socials">Follow Us</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -26,10 +29,17 @@
 
 <section class="hero">
     <div class="slider">
-        <div class="slide active" style="background:#ffcc00;"></div>
-        <div class="slide" style="background:#ffee66;"></div>
-        <div class="slide" style="background:#ffee99;"></div>
+        <img class="slide active" src="images/Logo.png">
+        <img class="slide" src="images/Broken_phone_sticker.png">
+        <img class="slide" src="images/Noise_maker.png">
+        <img class="slide" src="images/Color_swapped_MArkers.png">
+        <img class="slide" src="images/Cushion.png">
+        <img class="slide" src="images/Candles.png">
+        <img class="slide" src="images/Birthday_card.png">
+        <img class="slide" src="images/HOPPER.png">
+        <img class="slide" src="images/Ducks_explosion.png">
     </div>
+
     <div class="overlay">
         <h2>We'll rubber fuck their yard up with ducks</h2>
         <p>dude skibidi toilet idk</p>
@@ -49,21 +59,44 @@
         <h2>Prank Options</h2>
         <div class="cards">
             <div class="card">
-                <div class="card-placeholder"></div>
-                <h3>Option 1</h3>
-                <p>Option 1 info</p>
-                <a href="#" class="btn-small">Details</a>
+                <img src="images/MYSTERY_BOX.png" class="card-img">
+                <h3>Mystery Box</h3>
+                <p>A random chaos drop. You don’t know what you're getting.</p>
+                <a href="https://www.youtube.com/watch?v=Aq5WXmQQooo" target="_blank" class="btn-small">Details</a>
             </div>
+
             <div class="card">
-                <div class="card-placeholder"></div>
-                <h3>Option 2</h3>
-                <p>Option 2 info</p>
-                <a href="#" class="btn-small">Details</a>
+                <img src="images/Office_box.png" class="card-img">
+                <h3>Office Box</h3>
+                <p>Perfect for workplace pranks. Professional... kinda.</p>
+                <a href="https://www.youtube.com/watch?v=Aq5WXmQQooo" target="_blank" class="btn-small">Details</a>
             </div>
+
             <div class="card">
-                <div class="card-placeholder"></div>
-                <h3>Custom</h3>
-                <p>Idk its custom ig</p>
+                <img src="images/Birthday_box.png" class="card-img">
+                <h3>Birthday Box</h3>
+                <p>Celebrate with maximum duck disruption.</p>
+                <a href="https://www.youtube.com/watch?v=Aq5WXmQQooo" target="_blank" class="btn-small">Details</a>
+            </div>
+
+            <div class="card">
+                <img src="images/Party_Box.png" class="card-img">
+                <h3>Wedding Box</h3>
+                <p>Because nothing says love like 200 rubber ducks.</p>
+                <a href="https://www.youtube.com/watch?v=Aq5WXmQQooo" target="_blank" class="btn-small">Details</a>
+            </div>
+
+            <div class="card">
+                <img src="images/NSFW_box.png" class="card-img">
+                <h3>NSFW Box</h3>
+                <p>Not safe. Not subtle. You already know.</p>
+                <a href="https://www.youtube.com/watch?v=Aq5WXmQQooo" target="_blank" class="btn-small">Details</a>
+            </div>
+
+            <div class="card">
+                <img src="images/Ducks_explosion.png" class="card-img">
+                <h3>Individual Ducks</h3>
+                <p>Pick specific ducks instead of a full box.</p>
                 <a href="#" class="btn-small">Customize</a>
             </div>
         </div>
@@ -124,5 +157,6 @@ function showSlide() {
 }
 setInterval(showSlide, 3500);
 </script>
+
 </body>
 </html>
